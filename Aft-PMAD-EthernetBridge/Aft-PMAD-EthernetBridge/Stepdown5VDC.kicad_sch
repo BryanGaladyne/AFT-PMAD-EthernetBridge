@@ -1603,6 +1603,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+24V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -4181,7 +4320,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GaladynePowerSymbolsLibrary:VBATT_50V4")
+		(lib_id "power:+24V")
 		(at 163.83 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -4191,8 +4330,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "53fa9299-71d3-4029-a576-fd5ee92b2183")
-		(property "Reference" "#PWR025"
+		(uuid "4b593313-ce11-48b6-aa3d-662d810baccf")
+		(property "Reference" "#PWR031"
 			(at 163.83 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4203,7 +4342,7 @@
 				)
 			)
 		)
-		(property "Value" "VBATT_50V4"
+		(property "Value" "+24V"
 			(at 163.83 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4235,7 +4374,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
 			(at 163.83 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4247,12 +4386,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f90c43d-4f1e-4130-ac76-d6d1883ee2f8")
+			(uuid "b53815d7-299f-42da-b050-49270e881936")
 		)
 		(instances
 			(project "Aft-PMAD-EthernetBridge"
 				(path "/2d9655a2-9a74-4f5c-bab7-1e19113f649a/f431a2a8-8e4d-4a9d-a90a-ff6b2bc5ff50"
-					(reference "#PWR025")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5072,84 +5211,6 @@
 			(project "Aft-PMAD-EthernetBridge"
 				(path "/2d9655a2-9a74-4f5c-bab7-1e19113f649a/f431a2a8-8e4d-4a9d-a90a-ff6b2bc5ff50"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GaladynePowerSymbolsLibrary:VBATT_50V4")
-		(at 311.15 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90f37edb-57d1-4a9c-a21b-d9a01785849a")
-		(property "Reference" "#PWR031"
-			(at 311.15 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBATT_50V4"
-			(at 311.15 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 311.15 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "854e3127-9334-480b-9693-1724f2c49f40")
-		)
-		(instances
-			(project "Aft-PMAD-EthernetBridge"
-				(path "/2d9655a2-9a74-4f5c-bab7-1e19113f649a/f431a2a8-8e4d-4a9d-a90a-ff6b2bc5ff50"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6790,6 +6851,84 @@
 			(project "Aft-PMAD-EthernetBridge"
 				(path "/2d9655a2-9a74-4f5c-bab7-1e19113f649a/f431a2a8-8e4d-4a9d-a90a-ff6b2bc5ff50"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 311.15 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5b84b08-d455-40e4-822e-a206b4c7e155")
+		(property "Reference" "#PWR025"
+			(at 311.15 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 311.15 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 311.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbdcff5e-b68c-438f-80e5-bfcd943ba72c")
+		)
+		(instances
+			(project "Aft-PMAD-EthernetBridge"
+				(path "/2d9655a2-9a74-4f5c-bab7-1e19113f649a/f431a2a8-8e4d-4a9d-a90a-ff6b2bc5ff50"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
