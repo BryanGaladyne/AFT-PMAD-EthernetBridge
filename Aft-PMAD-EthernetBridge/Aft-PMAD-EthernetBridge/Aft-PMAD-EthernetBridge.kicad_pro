@@ -435,7 +435,7 @@
         "uuid": "2d9655a2-9a74-4f5c-bab7-1e19113f649a"
       }
     ],
-    "used_designators": "M1-2,#PWR10-18,R5-7,C10-14",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -446,6 +446,10 @@
     [
       "fed881c7-762b-4901-9502-fd5be95f1641",
       "Stepdown24VDC"
+    ],
+    [
+      "f431a2a8-8e4d-4a9d-a90a-ff6b2bc5ff50",
+      "Stepdown5VDC"
     ]
   ],
   "text_variables": {},
