@@ -6,6 +6,52 @@
 	(paper "B")
 	(lib_symbols)
 	(sheet
+		(at 217.17 38.1)
+		(size 53.34 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9343e74f-f520-47ed-acf7-184e2992f0e4")
+		(property "Sheetname" "Stepdown3V3"
+			(at 217.17 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Stepdown3V3.kicad_sch"
+			(at 217.17 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Aft-PMAD-EthernetBridge"
+				(path "/2d9655a2-9a74-4f5c-bab7-1e19113f649a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 133.35 38.1)
 		(size 53.34 53.34)
 		(exclude_from_sim no)

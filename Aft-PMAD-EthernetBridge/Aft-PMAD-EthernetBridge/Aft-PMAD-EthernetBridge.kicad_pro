@@ -450,6 +450,10 @@
     [
       "f431a2a8-8e4d-4a9d-a90a-ff6b2bc5ff50",
       "Stepdown5VDC"
+    ],
+    [
+      "9343e74f-f520-47ed-acf7-184e2992f0e4",
+      "Stepdown3V3"
     ]
   ],
   "text_variables": {},
