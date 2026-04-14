@@ -1,0 +1,60 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2d9655a2-9a74-4f5c-bab7-1e19113f649a")
+	(paper "B")
+	(lib_symbols)
+	(sheet
+		(at 50.8 38.1)
+		(size 55.88 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fed881c7-762b-4901-9502-fd5be95f1641")
+		(property "Sheetname" "Stepdown24VDC"
+			(at 50.8 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Stepdown24VDC.kicad_sch"
+			(at 50.8 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Aft-PMAD-EthernetBridge"
+				(path "/2d9655a2-9a74-4f5c-bab7-1e19113f649a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
