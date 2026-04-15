@@ -4297,7 +4297,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "287K"
+		(property "Value" "10K"
 			(at 316.23 194.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4352,7 +4352,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "RC0402FR-07287KL"
+		(property "MPN" "RC0402FR-0710KL"
 			(at 316.23 201.9299 0)
 			(show_name no)
 			(do_not_autoplace no)

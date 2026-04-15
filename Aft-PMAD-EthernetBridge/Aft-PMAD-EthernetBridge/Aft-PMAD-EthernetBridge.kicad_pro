@@ -271,7 +271,8 @@
       "GaladyneDiodesLibrary",
       "GaladyneIntegratedCircuitsLibrary",
       "GaladyneMOSFETLibrary",
-      "GaladynePowerSymbolsLibrary"
+      "GaladynePowerSymbolsLibrary",
+      "GaladyneInductorsLibrary"
     ]
   },
   "meta": {
@@ -435,7 +436,7 @@
         "uuid": "2d9655a2-9a74-4f5c-bab7-1e19113f649a"
       }
     ],
-    "used_designators": "U3,#PWR35,#PWR37-45,C30-32,R13,R15,TP1",
+    "used_designators": "#PWR46-50,L3,C33-35,R16-18",
     "variants": []
   },
   "sheets": [
